@@ -5,3 +5,5 @@ from Cython.Build import cythonize
 
 exts = (cythonize("cy_primos.pyx"))
 setup(ext_modules = exts)
+
+
