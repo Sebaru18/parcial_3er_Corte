@@ -23,3 +23,6 @@ for i in range(30):
 	
 	with open("datos.csv","a") as archivo:
 		archivo.write(formato_datos.format(finalpy, finalycy))
+		
+		
+		
