@@ -19,15 +19,15 @@ def primes(int nb_primes):
 
 
 
-	len_p = 0  # The current number of elements in p.
+	len_p = 0 
 	n = 2
 	while len_p < nb_primes:
-        # Is n prime?
+        
 		for i in p[:len_p]:
 			if n % i == 0:
 				break
 
-        # If no break occurred in the loop, we have a prime.
+        
 		else:
 			p[len_p] = n
 			len_p += 1
